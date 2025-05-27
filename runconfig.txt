@@ -1,0 +1,705 @@
+
+Epic
+
+ CI-248: Converged App -||Android||Onboarding: (Permissions, EULA, App Welcome)
+In Progress
+ 
+
+Document owner
+
+@Wilfert, Hallie @Reimer, Michael 
+
+Designer
+
+@Wilfert, Hallie 
+
+Tech lead
+
+@Longo, Jeffrey @Umesh Kanyal 
+
+Technical writers
+
+@ writers
+
+QA
+
+@ QA
+
+Team assigned
+
+@ team
+
+Initiative
+CI-35: Converged App
+Planning
+Converged App Requirements 
+
+direct hit Objective
+During the registration & onboarding, display only the permission requests required by the OS and specific subscriptions.  Any non-essential permissions should be moved out of the onboarding flow to context-specific presentations.
+
+ 
+
+As a user, I want to be presented with as few screens as possible between the first registration screen and the app home screen.  
+
+bar chart Success metrics
+Define the goals and metrics that will be used to measure the project’s success. These metrics should align with the Key Results defined in the Opportunity Assessment.
+
+Goal
+
+Metric
+
+
+
+ 
+
+ 
+
+thinking face Assumptions
+List any assumptions about users, technical constraints, or business goals that have been made to frame this project. This can help clarify limitations and dependencies early on.
+
+glowing star Milestones
+Dec
+2021
+Jan
+2022
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Milestone 1
+Milestone 2
+Marker
+Marker
+DashboardNotification
+Feature 1
+
+Feature 2
+
+Feature 3
+
+Feature 4
+
+iOS App
+
+Android
+
+
+spiral notepad Functional Requirements
+Note:  The language for “profile” has not been finalized yet. So profile = identity = account and I will let you know when we have settled on which word we are going to use 
+
+ 
+
+See details at 
+Onboarding Updates for Converged App 
+
+Requirement
+
+User Story
+
+Importance
+
+Acceptance Criteria
+
+Jira Stories
+
+Notes
+
+iOS onboarding & permissions - BLE readers only
+
+As an iOS user with only BLE readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+notifications
+
+bluetooth
+
+location 
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for notifications, Bluetooth, location, and camera (if in a Videocom-enabled community).
+
+MOB-33647: IOS || TR | Converged App ||  iOS onboarding & permissions - BLE readers only
+To Do
+ 
+Test Execution: 
+MOB-34200: Test Execution || IOS || Converged App ||  iOS onboarding & permissions - BLE readers only
+To Do
+ 
+Test Set: MOB-33103: MOB-Converge-Android and iOS-Permission Pop-ups-Home Screen-Regression-Full-v8.0.0
+In Review
+ 
+
+Onboarding Updates for Converged App 
+
+camera permission is also necessary for service requests to attach photos.
+
+iOS onboarding & permissions - BLE & NFC readers 
+
+As an iOS user with both BLE & NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+notifications
+
+bluetooth
+
+location
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for notifications, Bluetooth, location, and camera (if in a Videocom-enabled community).
+
+MOB-33647: IOS || TR | Converged App ||  iOS onboarding & permissions - BLE readers only
+To Do
+ 
+Test Execution: 
+MOB-34200: Test Execution || IOS || Converged App ||  iOS onboarding & permissions - BLE readers only
+To Do
+ 
+Test Set: MOB-33103: MOB-Converge-Android and iOS-Permission Pop-ups-Home Screen-Regression-Full-v8.0.0
+In Review
+ 
+
+ 
+
+iOS onboarding & permissions - NFC readers only
+
+As an iOS user with only NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+notifications
+
+location
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for notifications, Bluetooth, location, and camera (if in a Videocom-enabled community).
+
+Out of scope
+
+NFC-only scenarios are out of scope for the first release
+
+Android 13 and above onboarding & permissions
+
+As an Android 13 user, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+notifications
+
+bluetooth
+
+location (only needed if the user has remote unlock in scope)
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+User is prompted for notifications, Bluetooth, location (if remote unlock is in scope), and camera (if needed).
+
+  https://kastlesystems.atlassian.net/browse/MOB-33540 
+Test Execution:
+https://kastlesystems.atlassian.net/browse/MOB-33830 
+Test Set: https://kastlesystems.atlassian.net/browse/MOB-33103 
+
+ 
+
+Android 13 and above onboarding & permissions - BLE readers only
+
+As an Android 13 and above user with only BLE readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+notifications
+
+bluetooth
+
+location (only needed if the user has remote unlock in scope)
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for notifications, Bluetooth, location (if remote unlock is in scope), and camera (if needed).
+
+https://kastlesystems.atlassian.net/browse/MOB-33540 
+Test Execution:https://kastlesystems.atlassian.net/browse/MOB-33830 
+Test Set: https://kastlesystems.atlassian.net/browse/MOB-33103 
+
+ 
+
+Android 13 and above onboarding & permissions - BLE & NFC readers 
+
+As an Android 13 and above user with both BLE & NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+notifications
+
+bluetooth
+
+location (only needed if the user has remote unlock in scope)
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for notifications, Bluetooth, location (if remote unlock is in scope), and camera (if needed).
+
+https://kastlesystems.atlassian.net/browse/MOB-33540 
+Test Execution: https://kastlesystems.atlassian.net/browse/MOB-33830 
+Test Set: https://kastlesystems.atlassian.net/browse/MOB-33103 
+
+ 
+
+Android 13 and above onboarding & permissions - NFC readers only
+
+As an Android 13 and above user with only NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+notifications
+
+bluetooth
+
+location (only needed if the user has remote unlock in scope)
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for notifications, Bluetooth, location (if remote unlock is in scope), and camera (if needed).
+
+ 
+
+NFC-only scenarios are out of scope for the first release
+
+Android 12 onboarding & permissions - BLE readers only
+
+As an Android 12 user with only BLE readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+bluetooth
+
+location (only needed if the user has remote unlock in scope)
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for Bluetooth, location (if remote unlock is in scope), and camera (if needed).
+
+https://kastlesystems.atlassian.net/browse/MOB-33540 
+Test Execution: https://kastlesystems.atlassian.net/browse/MOB-33830 
+Test Set: https://kastlesystems.atlassian.net/browse/MOB-33103 
+
+ 
+
+Android 12 onboarding & permissions - BLE & NFC readers 
+
+As an Android 12 user with both BLE & NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+bluetooth
+
+location (only needed if the user has remote unlock in scope)
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for Bluetooth, location (if remote unlock is in scope), and camera (if needed).
+
+https://kastlesystems.atlassian.net/browse/MOB-33540 
+Test Execution: https://kastlesystems.atlassian.net/browse/MOB-33830 
+Test Set: https://kastlesystems.atlassian.net/browse/MOB-33103 
+
+ 
+
+Android 12 onboarding & permissions - NFC readers only
+
+As an Android 12 user with only NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+bluetooth
+
+location (only needed if the user has remote unlock in scope)
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for Bluetooth, location (if remote unlock is in scope), and camera (if needed).
+
+https://kastlesystems.atlassian.net/browse/MOB-33540 
+Test Execution: https://kastlesystems.atlassian.net/browse/MOB-33830 
+Test Set: https://kastlesystems.atlassian.net/browse/MOB-33103 
+
+NFC-only scenarios are out of scope for the first release
+
+Android 11 and below onboarding & permissions  - BLE readers only
+
+ 
+
+Android 11 and below not supported in the converged app
+
+As an Android 11 or below user with only BLE readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+bluetooth
+
+location
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for Bluetooth, location, and camera (if needed).
+
+ 
+
+3/20/25: Android 11 and below not supported in the converged app
+
+Android 11 and below onboarding & permissions - BLE & NFC readers 
+
+3/20/25: Android 11 and below not supported in the converged app
+
+As an Android 11 or below user with both BLE & NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+bluetooth
+
+location
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for Bluetooth, location, and camera (if needed).
+
+ 
+
+3/20/25: Android 11 and below not supported in the converged app
+
+Android 11 and below onboarding & permissions - NFC readers only
+
+3/20/25: Android 11 and below not supported in the converged app
+
+As an Android 11 or below user with only NFC readers in my scope, I want to be presented with as few screens as possible between the first registration screen and the app home screen, specifically: 
+
+bluetooth
+
+location
+
+camera (only required if user is in a videocom-enabled community)
+
+ 
+
+ 
+
+User is prompted for Bluetooth, location, and camera (if needed).
+
+ 
+
+3/20/25: Android 11 and below not supported in the converged app
+
+reminder to switch to permission to always (BLE readers, non-app-tap/biometric)
+
+as a user, I should be reminded to switch my location permission to always so that I can use my app without having to bring the app into the foreground
+
+if location is set to always, hands free will work in background
+
+ 
+
+Hands-free works if location is set to "Always". If set to "While Using," provisional background access is granted but reminders will prompt a switch.
+
+ 
+
+if location is set to “when using the app”, then initially hands free will work when app is in background (swiped off) and then the app will keep reminding you if you decline to switch the permission then the provisional access to background will be removed and you must bring app in foreground to use it hands free. All modes of operation need the app in the foreground
+
+Ability to dismiss permission switch reminder
+
+as a user, I should be able to turn off reminders to change my permission settings to always
+
+ 
+
+User can dismiss reminders and stop receiving location permission prompts.
+
+ 
+
+ 
+
+No reminder to switch to permission to always (app-tap/biometric readers)
+
+as a user who only has readers in my scope that are app-tap/biometric/or other app-required mode of operation, I do not need to be reminded to set my  location permission to always since I have to interact with the app to unlock the door
+
+ 
+
+No reminders are displayed for users whose access methods require app interaction.
+
+ 
+
+ 
+
+No reminder to switch to permission to always (NFC-only readers)
+
+as a user who only has NFC-only readers in my scope, I do not need to be reminded to set my location permission to always
+
+ 
+
+No reminders are displayed for users whose access methods require NFC interaction.
+
+ 
+
+ 
+
+ 
+
+⚙️Technical Requirements
+ 
+
+ 
+
+Requirement
+
+Technical Requirement Description
+
+Importance
+
+Acceptance Criteria
+
+Jira Issues
+
+Notes
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+🌐Non-Functional Requirements
+Include specifications for performance, security, compliance, scalability, and other non-functional aspects that are critical to the project.
+
+Type
+
+Requirement
+
+Performance      
+
+System should handle up to 1000 concurrent users with no degradation in response time.        
+
+Security         
+
+Data must be encrypted at rest and in transit.                                               
+
+Compliance       
+
+Must comply with GDPR standards.                                                             
+
+Scalability      
+
+System should scale to support up to 10x expected load over the next 5 years.                 
+
+Usability
+
+Interface must be user-friendly, with clear navigation and instructions.  Color contrast must meet accessibility standards.
+
+⚖️Dependencies and Constraints
+List both internal and external dependencies that could impact the project’s progress. Include any constraints related to resources, technology, or timelines.
+
+Dependency Type
+
+Description
+
+Internal        
+
+                   
+
+External        
+
+                              
+
+🛡️Risks and Mitigations
+Identify potential risks and corresponding mitigation strategies. Include risk levels to prioritize focus areas for risk management.
+
+Risk Description
+
+Impact
+
+Mitigation Plan
+
+ JBG Smith Custom Version App
+
+HIGH
+
+Make sure this app is planned for     
+
+Irvine Presence is currently built on top of KP
+
+HIGH
+
+Work on moving Irvine to a white label appUse 
+
+artist palette User interaction and design
+Add mockups, diagrams, or screenshots that support the requirements. Use this section to provide a visual reference for UI/UX expectations.
+
+IOS Permissions
+Android 13 and Above Permissions
+ 
+
+Android 12 Permissions
+ 
+
+Android 11 and below Permissions
+ 
+
+Note: As we have set the minimum target to Android 12, it is essential to verify that dependencies are compatible with Android 12 or higher. We need to update each library accordingly, and this update will align with SDK 5.0 and Converged 8.0.
+
+@Ritesh Dubey1 @Umesh Kanyal @Wilfert, Hallie @Longo, Jeffrey @Rahul Pandey @Reimer, Michael 
+
+Question Mark Open Questions
+Track any unresolved questions related to the project requirements. This section helps to ensure that all uncertainties are addressed before moving forward.
+
+Question
+
+Answer
+
+Date Answered
+
+Are we supporting Android 11 or below? Since Google no longer provides security updates for these versions, we should consider moving to Android 12 and above. Please share your thoughts on this.
+
+
+3/20/25: Android 11 and below not supported in the converged app
+
+Location permission required for geofence range detection. Once the user enters the geofence, the reader location is triggered, and based on this, the profile  needs to be updated. Could you please confirm if this approach is correct?  @Ritesh Dubey1 @Umesh Kanyal @Longo, Jeffrey @Wilfert, Hallie @Reimer, Michael @Mohammad Asif 
+
+ 
+
+4/09/25: I’m not sure I understand the question.  If no one else can confirm, then we can discuss on our next call. @Umesh Kanyal @Longo, Jeffrey @Ritesh Dubey1 @Reimer, Michael @Mohammad Asif @Priti Tripathi 
+
+@Wilfert, Hallie Can you confirm whether the Physical Activity Permission is required, or can it be removed? It is currently used for battery optimization. @Ritesh Dubey1 @Umesh Kanyal @Rahul Pandey 
+
+ 
+
+@Priti Tripathi  - Physical activity permission is removed from the onboarding flow. However, it is tied to functionality that we are using on the Battery Savings page. Seehttps://kastlesystems.atlassian.net/wiki/spaces/Requiremen/pages/3700359169
+
+  @Umesh Kanyal @Longo, Jeffrey @Ritesh Dubey1 @Reimer, Michael @Mohammad Asif @Priti Tripathi 
+
+@Wilfert, Hallie Can you confirm whether the Schedule Exact Alarm is required, or can it be removed? @Rahul Pandey @Ritesh Dubey1 @Umesh Kanyal 
+
+ 
+
+@Priti Tripathi 
+
+This permission can be removed since we have removed the “set office hours” functionality.  See
+
+https://kastlesystems.atlassian.net/wiki/spaces/Requiremen/pages/3700359169 
+
+ 
+
+  @Umesh Kanyal @Longo, Jeffrey @Ritesh Dubey1 @Reimer, Michael @Mohammad Asif @Priti Tripathi
+
+Warning Out of Scope
+Define any features, integrations, or requirements that are not included in this project phase. This helps set clear boundaries and manage stakeholder expectations.
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
